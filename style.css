@@ -1,0 +1,30 @@
+/* Drawn From History - the same sheet of paper the videos are drawn on. */
+:root {
+  --paper: #F7F3E8;
+  --ink: #1A1A1A;
+  --accent: #1E6F9F;
+  --faded: #6B6459;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0 20px 80px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; }
+header { padding: 56px 0 8px; border-bottom: 2px solid var(--ink); margin-bottom: 36px; }
+.brand { font-size: 13px; letter-spacing: 0.34em; text-transform: uppercase; color: var(--faded); margin: 0 0 14px; }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 10px; }
+.tagline { font-size: 19px; margin: 0 0 30px; color: var(--ink); }
+h2 { font-size: 21px; margin: 38px 0 10px; }
+p, li { color: #2A2822; }
+li { margin-bottom: 7px; }
+a { color: var(--accent); }
+a:hover { color: var(--ink); }
+.note { border-left: 3px solid var(--accent); padding: 2px 0 2px 16px; color: var(--faded); }
+.updated { font-size: 14px; color: var(--faded); }
+nav { margin-top: 56px; padding-top: 20px; border-top: 1px solid #D9D2C2; font-size: 15px; }
+nav a { margin-right: 20px; }
+@media (max-width: 480px) { h1 { font-size: 27px; } body { font-size: 16px; } }
